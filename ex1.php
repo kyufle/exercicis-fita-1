@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>uwu</title>
+	<title>fita 1 - Ruth Romero Carretero</title>
 	<style>
 		.footer {
 			background-color: blueviolet;
