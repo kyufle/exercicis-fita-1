@@ -38,6 +38,7 @@
 <body>
 
   <h1>Holis</h1>
+  <p>Fita 1 - Ruth Romero</p>
 
   <?php
     echo "Això està fet amb PHP";
