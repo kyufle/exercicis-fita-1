@@ -12,8 +12,8 @@
 			border: solid 1px black;
 			padding: 10px;
 		}
-		.negrita {
-			border: solid 3px black;
+		.borderBold {
+			border-left: solid 3px black;
 		}
 	</style>
 </head>
@@ -25,7 +25,7 @@
 			echo "<tr>";
 			for ($j=0; $j < 9; $j++){
 				
-				echo "<td class='negrita'></td>";
+				echo "<td class='borderBold'></td>";
 			}
 		echo "</tr>";
 		}
