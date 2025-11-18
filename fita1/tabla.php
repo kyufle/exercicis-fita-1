@@ -8,7 +8,7 @@
             border-collapse: collapse;
             margin: 40px auto;
         }
-        td, th {
+        td.normal, th {
             border: 1px solid black;
             padding: 8px 12px;
             text-align: center;
@@ -18,6 +18,14 @@
         }
         tr:nth-child(even) {
             background-color: #f9f9f9;
+        }
+
+        .normal span {
+            display: table-cell;
+            border: 1px solid #000;
+            padding: 5px 10px;
+            margin: 0;
+            text-align: center;
         }
     </style>
 </head>
@@ -36,18 +44,17 @@ for ($row = 0; $row < $N; $row++) {
     echo "<tr>";
 
     for ($col = 0; $col <= $M; $col++) {
-        echo "<td>";
+        echo "<td class='normal'>";
         for ($k = 0; $k <= $col; $k++) {
-            echo $k + $row;
-            if ($k < $col) echo ",";
+            echo "<span>" . ($k + $row) . "</span> ";
         }
         echo "</td>";
     }
-
     echo "</tr>";
 }
 ?>
 </table>
+
 
 </body>
 </html>
